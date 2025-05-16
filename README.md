@@ -1,13 +1,32 @@
-# Sample Hardhat Project
+# 🗳️ Web3 Voting DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a decentralized voting application (DApp) built using **Solidity**, **Hardhat**, **Ethers.js**, **HTML/CSS**, and **JavaScript**. Users can vote for one of three candidates — Alice, Bob, or Charlie — using their MetaMask wallet.
 
-Try running some of the following tasks:
+---
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## 🚀 Features
+
+- 🧱 Smart contract written in Solidity
+- ⚙️ Deployment via Hardhat
+- 🌐 Simple web UI with HTML/CSS
+- 🔐 Wallet connection using MetaMask
+- 📊 Live vote count for each candidate
+
+---
+
+## 🧰 Tech Stack
+
+- [Solidity](https://soliditylang.org/)
+- [Hardhat](https://hardhat.org/)
+- [Ethers.js](https://docs.ethers.org/)
+- [MetaMask](https://metamask.io/)
+- HTML/CSS/JavaScript
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/voting-dapp.git
+cd voting-dapp
+npm install
